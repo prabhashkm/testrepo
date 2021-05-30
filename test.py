@@ -1,10 +1,13 @@
-#!/usr/local/bin/python
+#!/usr/local/bin/python3
 # this is a test python script.
 
-def showmsg():
-    print("You are using GitHub Actions and python packages.")
+def showmsg(msg):
+    print(msg)
 
 def main():
     if __name__ == '__main__':
-        showmsg()
+        showmsg("You are using GitHub Actions and Python3.")
+
+main()
+
 
